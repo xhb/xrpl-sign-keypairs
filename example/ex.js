@@ -1,5 +1,5 @@
 const sign = require("..");
-const keypairs = require("ripple-keypairs");
+const keypairs = require("@xhbmygod/ripple-keypairs");
 
 const x1 = keypairs.deriveKeypair(keypairs.generateSeed())
 const x2 = keypairs.deriveKeypair(keypairs.generateSeed())
